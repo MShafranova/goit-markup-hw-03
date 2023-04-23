@@ -140,8 +140,6 @@ background-color: var(--color-white);
   color:var(--color-ocean);
 }
 
-}
-
 /* Main Section*/
 .main {
 }
@@ -305,4 +303,7 @@ background-color: var(--color-white);
 }
 .portfolio-item-subtitle {
  color: var(--color-slate);
+}
+.container {
+  
 }
