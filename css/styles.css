@@ -110,6 +110,7 @@ button {
   display: flex;
   flex-direction: row;
   margin-right: auto;
+  align-items: center;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -185,12 +186,12 @@ button {
 }
 .hero {
   background-color: var(--color-navy-blue);
+  padding: 188px 0;
 }
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -297,7 +298,7 @@ button {
 
 .team-list-item {
   background-color: var(--color-white);
-  
+  border-radius: 0px 0px 4px 4px; 
 }
 .team-item-img {
 }
@@ -311,7 +312,6 @@ button {
 }
 .team-worker-info {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
 }
 
@@ -322,8 +322,6 @@ button {
   padding-bottom: 100px;
 }
 .footer-container {
-  display: flex;
-  flex-direction: column;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -337,6 +335,7 @@ button {
   text-transform: uppercase;
   color:var(--color-iris);
   margin-bottom: 16px;
+  
   display: inline-block;
 }
 .logo-studio-footer {
